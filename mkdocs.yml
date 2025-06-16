@@ -15,4 +15,4 @@ plugins:
 nav:
   - Home: index.md
   - Introduction: intro.md
-  - API Reference: openapi.yaml
+  - API Reference: api.md
