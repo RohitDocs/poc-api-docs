@@ -20,7 +20,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install mkdocs-material mkdocs-openapi-plugin
+        pip install mkdocs-material mkdocs-openapi
 
     - name: Build and Deploy
       run: |
