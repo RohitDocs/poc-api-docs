@@ -1,0 +1,18 @@
+
+site_name: Sample API Docs
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - content.code.copy
+
+plugins:
+  - search
+  - openapi:
+      spec_dir: openapi
+      spec_file: openapi.yaml
+
+nav:
+  - Home: index.md
+  - Introduction: intro.md
+  - API Reference: openapi.yaml
