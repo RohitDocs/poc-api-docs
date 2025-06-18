@@ -19,9 +19,7 @@ jobs:
         python-version: 3.10
 
     - name: Install dependencies
-      run: |
-        pip install mkdocs-material mkdocs-openapi
+      run: pip install -r requirements.txt
 
     - name: Build and Deploy
-      run: |
-        mkdocs gh-deploy --force
+      run: mkdocs gh-deploy --force

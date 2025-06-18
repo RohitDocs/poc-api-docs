@@ -6,12 +6,6 @@ theme:
     - navigation.tabs
     - content.code.copy
 
-plugins:
-  - search
-  - openapi:
-      spec_dir: openapi
-      spec_file: openapi.yaml
-
 nav:
   - Home: index.md
   - Introduction: intro.md

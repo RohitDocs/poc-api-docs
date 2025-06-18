@@ -1,0 +1,5 @@
+
+mkdocs-material==9.5.15
+mkdocs-openapi==1.2.0
+mkdocstrings==0.22.0
+python-markdown-math==0.8
