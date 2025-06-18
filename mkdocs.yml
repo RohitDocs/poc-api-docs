@@ -5,6 +5,14 @@ theme:
   features:
     - navigation.tabs
     - content.code.copy
+plugins:
+  - search
+  - openapi
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.highlight
 
 nav:
   - Home: index.md
